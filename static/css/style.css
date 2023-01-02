@@ -1,0 +1,171 @@
+#cabecalho{
+    color: white;
+    font-size: large;
+    font-weight: 1000;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    background-color: rgb(0, 0, 0);
+}
+
+button{
+    color: blue;
+}
+
+#containerCounter{
+    background-color: blue;
+    width: 120vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+    #jog1{
+        color: white;
+        font-size: large;
+        font-weight: 1000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+            #jogador1{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                margin-top: 10px; 
+                
+            }
+
+                    #containerJogador1{
+                        background-color: rgb(115, 115, 116);
+                        height: auto;
+                        width: auto;
+                        border-radius: 10px;
+                        margin-right: 10px;
+                        padding:10px;
+                        
+                    }
+                            #vidaJogador1{
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                                #botoesJogador1{
+                                display: flex;
+                                flex-direction:row;
+                                justify-content: space-between;
+                                margin-top: 10px;
+                                margin-right: 10px;
+                                margin-left: 10px;
+                                }
+                    #containerJogador1Veneno{
+                        background-color: rgb(115, 115, 116);
+                        height: auto;
+                        width: auto;
+                        border-radius: 10px;
+                        margin-right: 10px;
+                        padding:10px;
+                    }
+                            #vidaVenenoJogador1{
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                                #botoesVenenoJogador1{
+                                display: flex;
+                                flex-direction:row;
+                                justify-content: space-between;
+                                margin-top: 10px;
+                                margin-right: 10px;
+                                margin-left: 10px;
+                                }
+
+    #resetgame{
+        background-color: blue;
+        color: white;
+        font-size: large;
+        font-weight: 1000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+            #botaoresetegame{
+
+            }
+
+    #jog2{
+        color: white;
+        font-size: large;
+        font-weight: 1000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }                            
+            #jogador2{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                margin-top: 10px; 
+            }
+
+
+                #containerJogador2{
+                    background-color: rgb(115, 115, 116);
+                    height: auto;
+                    width: auto;
+                    border-radius: 10px;
+                    margin-right: 10px;
+                    padding:10px;
+
+                    }
+                        #vidaJogador2{
+                            text-align: center;
+                            margin-top: 10px;
+                            }
+                        #botoesJogador2{
+                                        display: flex;
+                                        flex-direction:row;
+                                        justify-content: space-between;
+                                        margin-top: 10px;
+                                        margin-right: 10px;
+                                        margin-left: 10px;
+                                        }
+
+                #containerJogador2Veneno{
+                    background-color: rgb(115, 115, 116);
+                    height: auto;
+                    width: auto;
+                    border-radius: 10px;
+                    margin-right: 10px;
+                    padding:10px;
+                    }
+                        #vidaVenenoJogador2{
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                                        #botoesVenenoJogador2{
+                                        display: flex;
+                                        flex-direction:row;
+                                        justify-content: space-between;
+                                        margin-top: 10px;
+                                        margin-right: 10px;
+                                        margin-left: 10px;
+                                        }
+
+                            
+                
+
